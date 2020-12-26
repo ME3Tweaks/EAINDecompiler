@@ -12,4 +12,4 @@ To use: Pass the path of the .dat file to decrypt/decompile to this program, and
 This software is licenced under MIT, and uses LuaDec51.
 
 ## Technical info
-These files contain a magic header (EAIN), and the remaining data is a single-byte cipher xor'd onto them. In the case of Mass Effect games, it is 0xB4.
+These files contain a magic header (EAIN), and the remaining data is a single-byte cipher xor'd onto them. In the case of Mass Effect games, it is 0xB4 (this program will only apply 0xB4 cipher).
